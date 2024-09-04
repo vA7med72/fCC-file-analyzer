@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: #0a0a23;
+    color: white;
+}
+
+form {
+    background-color: #0a0a09;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+
+#upfile, #submit, p {
+    font-size: 1.1rem;
+}
+
+#submit {
+    width: 70%;
+    background-color: orange;
+    color: black;
+}
+

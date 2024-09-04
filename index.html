@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="File Analyzer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>File Analyzer</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>File Analyzer</h1>
+        <h2>Example</h2>
+        <p>Upload a File</p>
+        <h2>Output</h2>
+        <p><code>{ "name": &lt;file name&gt;, "type": &lt;file type&gt;, "size": &lt;file size&gt; }</code></p>
+        <form method="post" enctype="multipart/form-data" action="/api/fileanalyse">
+            <input id="upfile" type="file" name="upfile">
+            <input id="submit" type="submit" value="Upload">
+        </form>
+    </body>
+</html>
